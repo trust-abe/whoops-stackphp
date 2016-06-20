@@ -59,7 +59,7 @@ class WhoopsMiddleWare implements HttpKernelInterface {
 		if ($catch && $this->resolveBool($this->catchExceptions)) {
 			try {
 				return $this->router->handle($request, $type, false);
-			} catch (\Exception $e) {
+			} catch (\Throwable $e) {
 				$method = Run::EXCEPTION_HANDLER;
 				
 				ob_start();
