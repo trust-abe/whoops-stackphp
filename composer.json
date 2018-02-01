@@ -19,7 +19,7 @@
 	],
 	"require" : {
 		"php" : ">=5.5.0",
-		"symfony/http-kernel" : "~2.0 | ~3.0",
+		"symfony/http-kernel" : "~2.0 | ~3.0 | ~4.0",
 		"mouf/utils.common.conditioninterface": "~2.0",
 		"filp/whoops": "~2.0",
 		"symfony/var-dumper": "~3.0"
